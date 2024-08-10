@@ -1,0 +1,240 @@
+/* Importar Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.singers-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.singer {
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 200px;
+}
+
+.singer img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.biography-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.biography-content img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+.search-bar {
+    margin-top: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilos específicos para cada biografía */
+.biography-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.biography-content img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.biography-content h2, 
+.biography-content h3 {
+    color: #444;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos específicos para Karol G */
+#karol-g .biography-content {
+    background-color: #eaf1f9;
+    color: #333;
+}
+
+#karol-g header {
+    background-color: #00bfae;
+}
+
+/* Estilos específicos para Drake */
+#drake .biography-content {
+    background-color: #f9f5f5;
+    color: #333;
+}
+
+#drake header {
+    background-color: #111;
+}
+
+/* Estilos específicos para 2Pac */
+#2pac .biography-content {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#2pac header {
+    background-color: #1a1a1a;
+}
+
+/* Estilos específicos para J Balvin */
+#j-balvin .biography-content {
+    background-color: #f5f9f5;
+    color: #333;
+}
+
+#j-balvin header {
+    background-color: #ff6f00;
+}
+
+/* Estilos específicos para Ozuna */
+#ozuna .biography-content {
+    background-color: #f1f8e9;
+    color: #333;
+}
+
+#ozuna header {
+    background-color: #43a047;
+}
